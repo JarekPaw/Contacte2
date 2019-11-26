@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Contacte2</string>
+    <string name="btn_call">Call</string>
+    <string name="tv_name">imię</string>
+    <string name="tv_no">telefon</string>
+    <string name="tv_email">email</string>
+</resources>
