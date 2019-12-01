@@ -53,9 +53,11 @@ fun readPhoneNumber(contentResolver: ContentResolver, id: String){
         arrayOf(id),
         null)
         if (phoneCursor!!.moveToFirst()) {  // powinno też być dobrze: phoneCursor!!.moveToFirst()
+
             val number1: String = phoneCursor.getString(
                 phoneCursor.getColumnIndexOrThrow(ContactsContract.CommonDataKinds.Phone.NUMBER))
             ContactsLists.numberList.add(number1)
+
 
 
 
